@@ -1,5 +1,0 @@
-
-User-agent:*
-Disallow:
-
-Sitemap: https://theme-zhang.netlify.app/docs/sitemap.xml
