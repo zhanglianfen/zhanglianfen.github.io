@@ -10,7 +10,7 @@ export default hopeTheme({
         orange: "#fb9b5f",
     },
     fullscreen: true,
-    hostname: "https://zhanglianfen.github.io",
+    hostname: "https://theme-zhang.netlify.app/",
 
     author: {
         name: "Mr.Zhang",
@@ -21,7 +21,7 @@ export default hopeTheme({
 
     logo: "/logo.svg",
 
-    repo: "zhanglianfen/theme-blog",
+    repo: "zhanglianfen/zhanglianfen.github.io",
 
     docsDir: "",
 
@@ -35,7 +35,7 @@ export default hopeTheme({
     },
 
     locales: {
-        "/": {
+        "/en/": {
             // navbar
             navbar: enNavbar,
 
@@ -48,7 +48,7 @@ export default hopeTheme({
 
             blog: {
                 description: "Happy every day",
-                intro: "/intro.html",
+                intro: "/en/intro.html",
             },
 
             metaLocales: {
@@ -84,7 +84,7 @@ export default hopeTheme({
 
     encrypt: {
         config: {
-            "/demo/encrypt.html": ["1234"],
+            "/en/demo/encrypt.html": ["1234"],
             "/zh/demo/encrypt.html": ["1234"],
         },
     },

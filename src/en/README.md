@@ -11,7 +11,7 @@ projects:
   - icon: project
     name: theme
     desc: docs and blog build
-    link: https://github.com/zhanglianfen/theme
+    link: https://github.com/zhanglianfen/zhanglianfen.github.io
 
 #   - icon: link
 #     name: link name

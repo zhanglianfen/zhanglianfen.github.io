@@ -6,7 +6,7 @@ export default defineUserConfig({
     base: "/",
 
     locales: {
-        "/": {
+        "/en/": {
             lang: "en-US",
             title: "zhang",
             description: "one blog",
@@ -32,7 +32,7 @@ export default defineUserConfig({
                     name: "category",
                     getter: (page) => page.frontmatter.category,
                     formatter: {
-                        "/": "Category: $content",
+                        "/en/": "Category: $content",
                         "/zh/": "分类：$content",
                     },
                 },
@@ -40,7 +40,7 @@ export default defineUserConfig({
                     name: "tag",
                     getter: (page) => page.frontmatter.tag,
                     formatter: {
-                        "/": "Tag: $content",
+                        "/en/": "Tag: $content",
                         "/zh/": "标签：$content",
                     },
                 },
