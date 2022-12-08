@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://zhanglianfen.github.io/blog/sitemap.xml
