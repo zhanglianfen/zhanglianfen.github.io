@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://zhanglianfen.github.io/sitemap.xml
+Sitemap: https://theme-zhang.netlify.app/sitemap.xml
