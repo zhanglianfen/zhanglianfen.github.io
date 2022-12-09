@@ -46,7 +46,7 @@ export default defineUserConfig({
                 },
             ],
             // 当热键被按下时，搜索框的输入框会被聚焦，设置为空数组以禁用热键
-            hotKeys: [{ key: 'k', ctrl: true }, { key: 'enter', ctrl: false }],
+            hotKeys: [{ key: 'k', ctrl: true }],
             // 存储历史项目的最大数量
             historyCount: 5,
             // 结束输入到开始搜索的延时

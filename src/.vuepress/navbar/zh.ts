@@ -2,51 +2,53 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/zh/",
-  { text: "演示", icon: "discover", link: "/zh/demo/" },
-  {
-    text: "博文",
-    icon: "edit",
-    prefix: "/zh/posts/",
-    children: [
-      {
-        text: "苹果",
-        icon: "edit",
-        prefix: "apple/",
+    {
+        text: "计算机基础",
+        icon: "rank",
+        prefix: "/zh/basics/",
         children: [
-          { text: "苹果1", icon: "edit", link: "1" },
-          { text: "苹果2", icon: "edit", link: "2" },
-          "3",
-          "4",
+            {
+                text: "算法",
+                icon: "rank",
+                link: "algorithm/"
+            },
+            {
+                text: "MySQL数据库",
+                icon: "mysql",
+                link: "MySQL/",
+            },
+            {
+                text: "设计模式",
+                icon: "repair",
+                link: "design-patterns/",
+            },
+            {
+                text: "面向对象",
+                icon: "people",
+                link: "OOP/",
+            },
+            {
+                text: "设计思想和原则",
+                icon: "people",
+                link: "design-principles/",
+            },
+            {
+                text: "分布式",
+                icon: "snow",
+                link: "distribute/",
+            },
         ],
-      },
-      {
-        text: "香蕉",
-        icon: "edit",
-        prefix: "banana/",
+    },
+    {
+        text: "语言",
+        icon: "language",
+        prefix: "/zh/language/",
         children: [
-          {
-            text: "香蕉 1",
-            icon: "edit",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "edit",
-            link: "2",
-          },
-          "3",
-          "4",
+            {
+                text: "Java",
+                icon: "java",
+                link: "Java/"
+            },
         ],
-      },
-      { text: "樱桃", icon: "edit", link: "cherry" },
-      { text: "火龙果", icon: "edit", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
-    ],
-  },
-//   {
-//     text: "V2 文档",
-//     icon: "note",
-//     link: "https://vuepress-theme-hope.github.io/v2/zh/",
-//   },
+    },
 ]);
