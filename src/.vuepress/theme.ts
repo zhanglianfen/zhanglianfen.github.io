@@ -16,21 +16,20 @@ export default hopeTheme({
         name: "Mr.Zhang",
         url: "https://www.cnblogs.com/zhang1f/",
     },
-
     iconAssets: "iconfont",
 
     logo: "/logo.svg",
 
     repo: "zhanglianfen/zhanglianfen.github.io",
 
-    docsDir: "",
+    docsDir: "docs",
 
     pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
     blog: {
         medias: {
             Gitee: "https://gitee.com/zhang1f",
-            GitHub: "https://github.com/zhanglianfen", 
+            GitHub: "https://github.com/zhanglianfen",
         },
     },
 
@@ -41,6 +40,7 @@ export default hopeTheme({
 
             // sidebar
             sidebar: enSidebar,
+
 
             footer: "Happy every day",
 
@@ -90,9 +90,7 @@ export default hopeTheme({
     },
 
     plugins: {
-        blog: {
-            autoExcerpt: true,
-        },
+        blog: true,
 
         // If you don’t need comment feature, you can remove following option
         // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
@@ -129,10 +127,10 @@ export default hopeTheme({
             container: true,
             demo: true,
             echarts: true,
+            figure: true,
             flowchart: true,
             gfm: true,
             imageLazyload: true,
-            imageTitle: true,
             imageSize: true,
             include: true,
             katex: true,

@@ -20,9 +20,7 @@ export default defineUserConfig({
 
     theme,
 
-    shouldPrefetch: false,
-
-    plugins: [
+    shouldPrefetch: false, plugins: [
         searchProPlugin({
             // 是否索引内容
             indexContent: true,

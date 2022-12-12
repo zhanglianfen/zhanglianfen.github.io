@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 icon: home
 title: Blog Home
 heroImage: /logo.svg
@@ -13,29 +13,29 @@ projects:
     desc: docs and blog build
     link: https://github.com/zhanglianfen/zhanglianfen.github.io
 
-#   - icon: link
-#     name: link name
-#     desc: link detailed description
-#     link: https://link.address
+  - icon: link
+    name: link name
+    desc: link detailed description
+    link: https://link.address
 
-#   - icon: book
-#     name: book name
-#     desc: Detailed description of the book
-#     link: https://link.to.your.book
+  - icon: book
+    name: book name
+    desc: Detailed description of the book
+    link: https://link.to.your.book
 
-#   - icon: article
-#     name: article name
-#     desc: Detailed description of the article
-#     link: https://link.to.your.article
+  - icon: article
+    name: article name
+    desc: Detailed description of the article
+    link: https://link.to.your.article
 
-#   - icon: friend
-#     name: friend name
-#     desc: Detailed description of friend
-#     link: https://link.to.your.friend
+  - icon: friend
+    name: friend name
+    desc: Detailed description of friend
+    link: https://link.to.your.friend
 
-#   - icon: /logo.svg
-#     name: custom item
-#     desc: Detailed description of this custom item
-#     link: https://link.to.your.friend
+  - icon: /logo.svg
+    name: custom item
+    desc: Detailed description of this custom item
+    link: https://link.to.your.friend
 
 footer: Happy every day
